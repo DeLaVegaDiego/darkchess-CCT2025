@@ -34,6 +34,7 @@ public class StoryDatastore {
         Story s1 = new Story();
         s1.title = "Frontal Siege";
         s1.level = 1;
+        String pString = "PPPPPPPP";
         s1.description = "Commander! A wall of pawns is approaching!\n" +
         "\n"+
         "Can you break through the wall of pawns and kill the opposing commander?\n" +
@@ -42,7 +43,7 @@ public class StoryDatastore {
 
         String[] layout ={
             "    K   ", 
-            "PPPPPPPP",
+            pString,
             "        ",
             "        ",
             "        ",
@@ -91,7 +92,7 @@ public class StoryDatastore {
 
         String[] layout3 ={
             "RNBQKBNR", 
-            "PPPPPPPP",
+            pString,
             "        ",
             "        ",
             "        ",
@@ -115,8 +116,8 @@ public class StoryDatastore {
 
         String[] layout4 ={
             "PPPPKPPP", 
-            "PPPPPPPP",
-            "PPPPPPPP",
+            pString,
+            pString,
             "        ",
             "        ",
             "        ",
@@ -137,7 +138,7 @@ public class StoryDatastore {
 
         String[] layout5 ={
             "RNBQKBNR", 
-            "PPPPPPPP",
+            pString,
             "        ",
             "        ",
             "        ",
