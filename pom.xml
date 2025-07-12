@@ -22,7 +22,8 @@
 
 	<!-- Commit 2 -->
     <sonar.organization>delavegadiego</sonar.organization>
-    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+    <sonar.host.url>http://localhost:9000/</sonar.host.url>
+    <sonar.token>squ_cc42d90a4711ae8416ba88f61df7acec2d7d6ad0</sonar.token>
   </properties>
 
   <dependencies>
